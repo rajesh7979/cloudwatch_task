@@ -180,6 +180,7 @@ PATTERN
 
 resource "aws_cloudwatch_event_target" "s3_target" {
   rule      = "${aws_cloudwatch_event_rule.s3-events.name}"
+  target_id = "SendToSNS" 
   arn       = "${aws_sns_topic.cld-topic.arn}"
 }
 
