@@ -33,6 +33,33 @@ created sns topic and subcribed the topic
 
 Module file = sns.tf
 
+# $tree
+
+├── alb
+│   ├── alb.tf
+│   ├── lisener.tf
+│   ├── main.tf
+│   └── target.tf
+├── cloudtrail.tf
+├── cloudwatch
+│   └── cloudwatch.tf
+├── cloudwatch_task
+├── ec2
+│   ├── cw_agent_config.json
+│   ├── ec2.tf
+│   ├── iam.tf
+│   ├── ssm-agent-install.sh
+│   └── user_data.sh
+├── networking
+│   ├── cloudwatch.json
+│   ├── security.tf
+│   └── vpc.tf
+├── README.md
+├── sns
+│   └── sns.tf;x
+└── variables
+    └── var.tf
+
 
 
 # cloudwatch
